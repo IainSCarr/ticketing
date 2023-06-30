@@ -30,7 +30,7 @@ spec:
               valueFrom:
                 secretKeyRef:
                   name: jwt-secret
-                  key: JWT_TOKEN
+                  key: JWT_KEY
             - name: STRIPE_KEY
               valueFrom:
                 secretKeyRef:
